@@ -16,7 +16,7 @@ function MovieDetail() {
             setMovie(data)
         }
         fetcMovie()
-    }, []);
+    });
 
     useEffect(() => {
         document.title = `${movie.title} /cinema`
